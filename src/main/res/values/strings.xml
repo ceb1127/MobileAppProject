@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="id">snowww</string>
+    <string name="age">성인</string>
+
+    <string name="trigger_warning">트리거 워닝</string>
+    <string name="trigger_blood">유혈</string>
+    <string name="trigger_circle">환 공포증</string>
+    <string name="add_message">추가하고자 하는 단어를 입력하세요.</string>
+    <string name="trigger_keyword"><u>키워드 입력</u></string>
+    <string name="add">추가하기</string>
+    <string name="confirm">확인하기</string>
+
+    <string name="pref">선호도</string>
+
+    <string name="password_change">비밀번호 재설정</string>
+    <string name="confirm2">확인</string>
+    <string name="password_orig">기존 비밀번호</string>
+    <string name="password_new">새 비밀번호</string>
+    <string name="password_new_confirm">새 비밀번호 확인</string>
+    <string name="pwd">PWD</string>
+
+</resources>
