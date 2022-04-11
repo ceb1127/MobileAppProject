@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main_theme"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <!-- 유저 프로필 -->
     <ImageView
@@ -101,11 +102,14 @@
             android:layout_height="fill_parent"
             android:orientation="horizontal"
             android:gravity="right">
-            <ImageView
-                android:id="@+id/arrow_right"
+
+            <ImageButton
+                android:id="@+id/to_trigger"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
+                android:background="@color/main_theme"
+                android:scaleType="center"
                 android:src="@drawable/arrow_right" />
         </LinearLayout>
 
@@ -145,11 +149,13 @@
             android:layout_height="fill_parent"
             android:orientation="horizontal"
             android:gravity="right">
-            <ImageView
-                android:id="@id/arrow_right"
+
+            <ImageButton
+                android:id="@+id/to_pref"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
+                android:background="@color/main_theme"
                 android:src="@drawable/arrow_right" />
         </LinearLayout>
 
@@ -190,11 +196,13 @@
             android:layout_height="fill_parent"
             android:orientation="horizontal"
             android:gravity="right">
-            <ImageView
-                android:id="@id/arrow_right"
+
+            <ImageButton
+                android:id="@+id/to_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
+                android:background="@color/main_theme"
                 android:src="@drawable/arrow_right" />
         </LinearLayout>
 

@@ -12,4 +12,5 @@
     <color name="point">#FF5959</color>
     <color name="text">#F8F8F8</color>
     <color name="divider">#454545</color>
+    <color name="alert">#2D2D2D</color>
 </resources>
