@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--아이콘 수정해야함-->
+    <item
+        android:id="@+id/tab1"
+        android:icon="@drawable/setting"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/tab2"
+        android:icon="@drawable/favorite"
+        android:enabled="true"
+        android:title="선호도" />
+
+    <!--아이콘 수정해야함-->
+    <item
+        android:id="@+id/tab3"
+        android:icon="@drawable/setting"
+        android:enabled="true"
+        android:title="북마크" />
+
+    <item
+        android:id="@+id/tab4"
+        android:icon="@drawable/setting"
+        android:enabled="true"
+        android:title="설정" />
+</menu>
