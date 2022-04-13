@@ -1,21 +1,14 @@
 package com.example.myapplication
 
-<<<<<<<< HEAD:app/src/main/java/com/example/myapplication/SubActivityTrigger_add.kt
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-========
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.setting_main.*
->>>>>>>> origin/master:src/main/java/com/example/myapplication/MainActivity.kt
 
 class SubActivityTrigger_add : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-<<<<<<<< HEAD:app/src/main/java/com/example/myapplication/SubActivityTrigger_add.kt
         setContentView(R.layout.setting_trigger_add)
-========
         setContentView(R.layout.setting_main)
 
         // 트리거 워닝 페이지로 이동
@@ -29,7 +22,6 @@ class SubActivityTrigger_add : AppCompatActivity() {
             val intent = Intent(this, SubActivityPassword::class.java)
             startActivity(intent)
         }
->>>>>>>> origin/master:src/main/java/com/example/myapplication/MainActivity.kt
     }
 }
 
