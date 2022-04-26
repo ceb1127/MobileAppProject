@@ -12,5 +12,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Noggro"
+
+
+rootProject.name = "My Application"
+
 include ':app'

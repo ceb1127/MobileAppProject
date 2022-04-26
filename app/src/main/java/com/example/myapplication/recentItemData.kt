@@ -1,4 +1,4 @@
-package com.example.noggro
+package com.example.myapplication
 
 import android.graphics.drawable.Drawable
 
