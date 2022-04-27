@@ -3,7 +3,7 @@
     <!--아이콘 수정해야함-->
     <item
         android:id="@+id/tab1"
-        android:icon="@drawable/favorite"
+        android:icon="@drawable/home"
         android:title="홈" />
 
     <item
@@ -15,7 +15,7 @@
     <!--아이콘 수정해야함-->
     <item
         android:id="@+id/tab3"
-        android:icon="@drawable/setting"
+        android:icon="@drawable/bookmark"
         android:enabled="true"
         android:title="북마크" />
 
