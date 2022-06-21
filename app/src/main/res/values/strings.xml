@@ -1,27 +1,31 @@
 <resources>
-    <string name="app_name"></string>
-    <string name="id">snowww</string>
-    <string name="age">성인</string>
+    <string name="app_name">안식</string>
+    <string name="hello"> 안녕하세요 </string>
+    <string name="text"> 알러지 성분 식품 안내 앱 \n안식(食)과 함께 \n안전한 식료품 구매 하세요 !</string>
 
-    <string name="trigger_warning">트리거 워닝</string>
-    <string name="trigger_blood">유혈</string>
-    <string name="trigger_circle">환 공포증</string>
-    <string name="add_message">추가하고자 하는 단어를 입력하세요.</string>
-    <string name="trigger_keyword"><u>키워드 입력</u></string>
-    <string name="add">추가하기</string>
-    <string name="confirm">확인하기</string>
+    <string name="warning"> 알레르기 경고 ! </string>
+    <string name="warning_text"> 알레르기 성분이 포함된 식품입니다.\n 구매와 섭취에 유의하세요 </string>
 
-    <string name="pref">선호도</string>
+    <string name="cancel"> 취소 </string>
+    <string name="confirm"> 확인 </string>
 
-    <string name="password_change">비밀번호 재설정</string>
-    <string name="confirm2">확인</string>
-    <string name="password_orig">기존 비밀번호</string>
-    <string name="password_new">새 비밀번호</string>
-    <string name="password_new_confirm">비밀번호 확인</string>
-    <string name="pwd">PWD</string>
-    <string name="wrong_password">잘못된 비밀번호</string>
-    <string name="pwd_error_same">현재 비밀번호와 다른 비밀번호를 설정해주세요.</string>
-    <string name="pwd_error_diff">새 비밀번호와 비밀번호 확인이 다릅니다. \n다시 입력해주세요.</string>
-    <string name="pwd_error_null">빈칸없이 모두 입력해주세요!</string>
-    <string name="cancel">취소</string>
+    <string name="tag"> 알레르기 유발 성분 포함 식품 </string>
+    <string name="ingredient_info"> 성분 정보 </string>
+    <string name="raw_material"> 원재료 </string>
+    <string name="type"> 유형의 상태 </string>
+    <string name="manufacturer"> 제조판매원 </string>
+    <string name="volume"> 용량 </string>
+
+
+    <string name="allergy_info"> 알러지 유발 재료 </string>
+    <string name="allergy_info_list">
+        \n  계란  새우  밀  메밀  대두  땅콩
+        \n  고등어  돼지고기  복숭아  토마토
+        \n  호두  잣  닭고기  소고기
+        \n  오징어  조개류  홍합  전복  굴
+        \n  아황산  우유  게  아몬드 </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

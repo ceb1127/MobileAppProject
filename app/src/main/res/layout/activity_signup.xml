@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_theme"
+    tools:context=".Signup">
+
+    <ImageButton
+        android:id="@+id/logo"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="192dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/signUpId"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="283dp"
+        android:background="@drawable/round_edge"
+        android:hint="아이디"
+        android:textColor="#979797"
+        android:textColorHint="#979797" />
+
+    <EditText
+        android:id="@+id/signUppassword"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="349dp"
+        android:background="@drawable/round_edge"
+        android:hint="비밀번호"
+        android:textColor="#979797"
+        android:textColorHint="#979797" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="527dp"
+        android:background="@drawable/login_btn"
+        android:text="회원가입"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_bgcolor" >
+        <item>다크모드</item>
+        <item>화이트모드</item>
+    </string-array>
+    <string-array name="my_bgcolor_value" >
+        <item>#000000</item>
+        <item>#ffffff</item>
+    </string-array>
+</resources>

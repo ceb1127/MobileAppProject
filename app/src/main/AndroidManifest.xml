@@ -1,31 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="com.safefood.ansik">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
+        android:name=".GlobalApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
-        android:theme="@style/Theme.MyApplication">
-
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".SubActivityTrigger"></activity>
-        <activity android:name=".SubActivityPassword"></activity>
-        <activity android:name=".SubActivityTrigger_add"></activity>
+        <uses-library android:name="com.google.android.maps" />
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
 
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCejkK3zWYXi5QQVwAMt1wFSV6SDO4bFjM" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".FoodDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodlistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Redirect URI: "kakao8e1af695580d7576b0d68c2854a9ceb1://oauth" -->
+                <data
+                    android:host="oauth"
+                    android:scheme="kakao8e1af695580d7576b0d68c2854a9ceb1" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

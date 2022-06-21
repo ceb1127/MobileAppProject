@@ -8,20 +8,14 @@
 
     <item
         android:id="@+id/tab2"
-        android:icon="@drawable/favorite"
+        android:icon="@drawable/map"
         android:enabled="true"
-        android:title="선호도" />
+        android:title="지도" />
 
-    <!--아이콘 수정해야함-->
+
     <item
         android:id="@+id/tab3"
-        android:icon="@drawable/bookmark"
-        android:enabled="true"
-        android:title="북마크" />
-
-    <item
-        android:id="@+id/tab4"
-        android:icon="@drawable/setting"
+        android:icon="@drawable/settings"
         android:enabled="true"
         android:title="설정" />
 </menu>

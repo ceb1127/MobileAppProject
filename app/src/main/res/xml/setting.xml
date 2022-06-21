@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false"
+    >
+
+    <PreferenceCategory
+        app:key="notification"
+        android:title="알림 설정 "
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            app:key="noti_message"
+            android:title="메시지 알림"
+            android:defaultValue="false"
+            android:switchTextOn="메세지 알림 설정"
+            android:switchTextOff="메세지 알림 해제"
+            app:iconSpaceReserved="false"
+            />
+        <SwitchPreferenceCompat
+            app:key="noti_sound"
+            android:title="소리 알림"
+            android:defaultValue="false"
+            android:switchTextOn="소리 알림 설정"
+            android:switchTextOff="소리 알림 해제"
+            app:iconSpaceReserved="false"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="app_set"
+        android:title="앱 설정"
+        app:iconSpaceReserved="false">
+        <EditTextPreference
+            app:key="idSetting"
+            android:title="ID 설정"
+            app:iconSpaceReserved="false"
+             />
+        <ListPreference
+            app:key="bgColorSetting"
+            android:title="배경 테마 설정"
+            android:entries="@array/my_bgcolor"
+            app:entryValues="@array/my_bgcolor_value"
+            app:iconSpaceReserved="false"
+            />
+        <MultiSelectListPreference
+            app:key="allergySetting"
+            android:title="알러지 필터"
+            android:entries="@array/my_allergy"
+            app:entryValues="@array/my_allergy_value"
+            app:iconSpaceReserved="false"
+           />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

@@ -9,10 +9,9 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="main_theme">#1E1E1E</color>
-    <color name="point">#FF5959</color>
-    <color name="text">#F8F8F8</color>
-    <color name="divider">#454545</color>
+    <color name="main_theme">#ffffff</color>
+    <color name="point">#F1C451</color>
+    <color name="text">@color/black</color>
     <color name="alert">#2D2D2D</color>
 
 </resources>

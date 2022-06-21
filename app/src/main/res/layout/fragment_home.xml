@@ -4,9 +4,10 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#1F1E1E"
+        android:background="@color/main_theme"
         android:orientation="vertical"
-        >
+        android:id="@+id/rootLayoutHome"
+    >
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -16,9 +17,68 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/logo_small"
+                android:src="@drawable/logo"
                 />
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="로그아웃"
+                android:layout_marginLeft="260dp"
+                android:textColor="@color/text"
+                android:background="@drawable/round_edge"/>
         </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center_vertical"
+                android:text="@string/hello"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center_vertical"
+                android:text="유저님"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/user_profile">
+
+            </ImageButton>
+
+        </LinearLayout>
+
 
 
         <TextView
@@ -28,57 +88,50 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="5dp"
             android:gravity="center_vertical"
-            android:text="안녕하세요 영주이님!"
-            android:textColor="#F8F8F8"
+            android:text="@string/text"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            />
+
+        <Button
+            android:id="@+id/foodsearch_btn"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/point"
+            android:textColor="@color/text"
+            android:textStyle="bold"
             android:textSize="18dp"
-            android:textStyle="bold" />
+            android:text="식료품 검색하러가기"
+            />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/allergy_info"
+        android:textColor="@color/text"
+        android:layout_marginLeft="20dp"
+        />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="43dp"
-            android:gravity="center_vertical"
-            android:text="최근 시청한 영상"
-            android:textColor="#F8F8F8"
-            android:textSize="22dp"
-            android:textStyle="bold" />
-
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/item_recent"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:listitem="@layout/item_recent"
-            android:orientation="horizontal">
-        </androidx.recyclerview.widget.RecyclerView>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="24dp"
-            android:text="선호 카테고리 영상"
-            android:textColor="#F8F8F8"
-            android:textSize="22dp"
-            android:textStyle="bold" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/item_favorite"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:listitem="@layout/item_favorite"
-            android:orientation="horizontal">
-        </androidx.recyclerview.widget.RecyclerView>
-
+    <TextView
+        android:id="@+id/allergyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/point"
+        android:text="@string/allergy_info_list"
+        android:textColor="@color/alert"
+        android:background="@drawable/round_edge"
+        android:textSize="15dp"
+        />
 
 
     </LinearLayout>

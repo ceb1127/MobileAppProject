@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1081377564004",
+    "project_id": "ansik-6d79b",
+    "storage_bucket": "ansik-6d79b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081377564004:android:5047a97d22a628a75b8671",
+        "android_client_info": {
+          "package_name": "com.safefood.ansik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081377564004-9bur5ergd3fhfqi6l0bmes70l748ls9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.safefood.ansik",
+            "certificate_hash": "fa6bd67caebde7dae8103963c9317dad04dd0c1b"
+          }
+        },
+        {
+          "client_id": "1081377564004-30u8f351cu3o6ild1qn6n127eijgdm14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRwV-iJtxVK4uRK-szpQYUKNJF6CxxkQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081377564004-30u8f351cu3o6ild1qn6n127eijgdm14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
